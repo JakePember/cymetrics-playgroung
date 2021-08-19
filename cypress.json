@@ -1,0 +1,21 @@
+{
+    "videoCompression": false,
+    "video": false,
+    "watchForFileChanges": false,
+
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/reports/testCaseResults",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    },
+
+    "load_balancer": {
+        "outputDirectory": "output",
+        "testCaseOutputFileName": "tcDataOutput",
+        "fileOutputFileName": "fileDataOutput",
+        "testRunnerCount": "3",
+        "mochawesomeReport": "cypress/reports/mochawesomeMerged.json"
+    }
+}

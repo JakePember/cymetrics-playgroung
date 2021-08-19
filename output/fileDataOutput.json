@@ -1,0 +1,26 @@
+[
+  {
+    "file": "cypress/integration/custom_examples/test_2.spec.js",
+    "avg_duration": 5074,
+    "success_rate": 1,
+    "history": {
+      "avg_duration": [
+        5074
+      ],
+      "successful_runs": 1,
+      "failure_runs": 0
+    }
+  },
+  {
+    "file": "cypress/integration/custom_examples/test_1.spec.js",
+    "avg_duration": 816,
+    "success_rate": 1,
+    "history": {
+      "avg_duration": [
+        816
+      ],
+      "successful_runs": 1,
+      "failure_runs": 0
+    }
+  }
+]

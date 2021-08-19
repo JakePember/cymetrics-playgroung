@@ -1,0 +1,28 @@
+{
+  "name": "cypress-playgroung",
+  "version": "1.0.0",
+  "description": "A place with cypress installed, defaults only",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test": "npx cypress run",
+    "clean-reports": "npx rimraf cypress/reports/\"**\"",
+    "posttest": "npm run mocha-merge && npm run mocha-marge",
+    "mocha-merge": "npx mochawesome-merge 'cypress/reports/testCaseResults/*json' > cypress/reports/mochawesomeMerged.json",
+    "mocha-marge": "npx marge cypress/reports/mochawesomeMerged.json -f report -o cypress/reports/html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^9.0.3",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
+    "wait": "^0.4.2"
+  },
+  "dependencies": {
+    "async": "^3.2.1"
+  }
+}
