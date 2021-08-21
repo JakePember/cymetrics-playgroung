@@ -27,10 +27,10 @@ module.exports = (on, config) => {
         // "test" : "npm run clean-reports && npx cypress run && npm run posttest",
         series([() => exec('npm run clean-reports')]);
     })
-    on('after:run', (config) => {
+    on('after:run', async (config) => {
         series([
             () => exec('npm run posttest')
         ]);
-        load_balancer.balance(config)
+        await load_balancer.balance(config)
     })
 }

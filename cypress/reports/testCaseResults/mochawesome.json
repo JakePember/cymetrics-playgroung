@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2021-08-19T16:14:08.574Z",
-    "end": "2021-08-19T16:14:08.864Z",
-    "duration": 290,
+    "start": "2021-08-21T16:44:42.978Z",
+    "end": "2021-08-21T16:44:44.293Z",
+    "duration": 1315,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "0c5cad23-bcaf-420e-ba02-ca3ae13ad5d5",
+      "uuid": "a7555b1a-4c24-42ec-a658-b8a413bf4fb4",
       "title": "",
       "fullFile": "cypress/integration/custom_examples/test_1.spec.js",
       "file": "cypress/integration/custom_examples/test_1.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "83d34ebc-3126-4eb5-bc05-d8949f7a3943",
+          "uuid": "ae6383ce-59c9-4c47-8e08-766fb59b36bf",
           "title": "suite number 1",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "suite1 test1",
               "fullTitle": "suite number 1 suite1 test1",
               "timedOut": null,
-              "duration": 187,
+              "duration": 1020,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.wait(Math.floor(Math.random() * 1000) + 1);",
               "err": {},
-              "uuid": "c2be88c1-6fbb-4542-8fe2-8c38f89ba518",
-              "parentUUID": "83d34ebc-3126-4eb5-bc05-d8949f7a3943",
+              "uuid": "f866ad4a-1340-4277-afa0-1ba6718458a1",
+              "parentUUID": "ae6383ce-59c9-4c47-8e08-766fb59b36bf",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "suite1 test2",
               "fullTitle": "suite number 1 suite1 test2",
               "timedOut": null,
-              "duration": 76,
+              "duration": 259,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "cy.wait(Math.floor(Math.random() * 1000) + 1);",
               "err": {},
-              "uuid": "b23779b2-583b-44cb-b380-5265462019ac",
-              "parentUUID": "83d34ebc-3126-4eb5-bc05-d8949f7a3943",
+              "uuid": "55b3ba9b-a650-4f89-98ba-d13822268096",
+              "parentUUID": "ae6383ce-59c9-4c47-8e08-766fb59b36bf",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c2be88c1-6fbb-4542-8fe2-8c38f89ba518",
-            "b23779b2-583b-44cb-b380-5265462019ac"
+            "f866ad4a-1340-4277-afa0-1ba6718458a1",
+            "55b3ba9b-a650-4f89-98ba-d13822268096"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 263,
+          "duration": 1279,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

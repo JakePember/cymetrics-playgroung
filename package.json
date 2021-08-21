@@ -23,6 +23,7 @@
     "wait": "^0.4.2"
   },
   "dependencies": {
-    "async": "^3.2.1"
+    "async": "^3.2.1",
+    "lodash": "^4.17.21"
   }
 }
