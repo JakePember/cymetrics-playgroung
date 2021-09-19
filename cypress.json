@@ -15,7 +15,9 @@
         "outputDirectory": "output",
         "testCaseOutputFileName": "tcDataOutput",
         "fileOutputFileName": "fileDataOutput",
-        "testRunnerCount": "3",
+        "balancedFilesOutputFileName": "balancedFiles",
+        "balancedTcOutputFileName": "balancedTestCases",
+        "testRunnerCount": "2",
         "mochawesomeReport": "cypress/reports/mochawesomeMerged.json"
     }
 }
