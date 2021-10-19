@@ -15,6 +15,15 @@ of scenarios, such as always passing tests, always failing ones, and even pesky 
 Check out cymetrics' [GitHub](https://github.com/JakePember/cymetrics) or [NPM](https://www.npmjs.com/package/cymetrics)
 page for a better understanding of the package.
 
+Execution
+---------
+When you first download the repository to your local, open a terminal within the project root and run `npm install`. This
+will install all dependencies needed, including cymetrics.
+
+Once dependencies are installed, run `npm run test`.
+
+After the tests are done running, output of cymetrics can be found at `PROJECT_ROOT/output/`
+
 POINTS OF INTERESTS
 -------------------
 In this section we will go over some key code locations for cymetrics.

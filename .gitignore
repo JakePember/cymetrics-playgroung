@@ -95,6 +95,6 @@ test-directory/
 output/*
 /node_modules/
 cypress/reports/**
+mochawesome.json
 cypress/screenshots/**
 output/**
-
