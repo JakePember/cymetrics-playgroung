@@ -1,2 +1,8 @@
 # Project exclude paths
 /node_modules/
+cypress/reports/**
+cypress/screenshots/**
+output/**
+.vscode
+.idea
+
